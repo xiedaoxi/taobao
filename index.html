@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的淘宝</title>
+	<link rel="stylesheet" type="text/css" href="css/1.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+<!--top-->
+<div id="top">
+			<ul class="top">
+				<a href=''>&nbsp全球<p></p></a>
+				<a href=''>亲，请登录</a>
+				<a href=''>免费注册</a>
+				<a href=''>手机逛淘宝</a>
+			</ul>
+			<ul class="top2">
+				<a href="">淘宝网首页</a>
+				<a href="">我的淘宝<p></p></a>
+				<a href=""><span class="fa-cart-arrow-down
+ "></span>购物车<p></p></a>
+				<a href=""><span class="fa-cart-arrow-down
+ "></span>收藏夹<p></p></a>
+				<a href="">跨境物流管理</a>
+				<a href="">海外消费者帮助</a>
+			</ul>
+		</div>
+		<div id="tab-zhanghu">
+		<ul id="diqu">
+		<li>全球</li>
+		<li>中国大陆</li>
+		<li>香港</li>
+		<li>台湾</li>
+		<li>澳门</li>
+		<li>韩国</li>
+		<li>马来西亚</li>
+		<li>澳大利亚</li>
+		<li>新加坡</li>
+		<li>新西兰</li>
+		<li>加拿大</li>
+		<li>美国</li>
+		<li>日本</li>
+		<li>俄罗斯</li>
+		<li>德国</li>
+		</ul>
+		<ul id="wodi">
+		<li>已买到的宝贝</li>
+		<li>我的足迹</li>
+		</ul>
+		<ul id="shouchang">
+		<li>收藏的宝贝</li>
+		<li>收藏的店铺</li>
+		</ul>
+		</div>
+		<!--第二-->
+		<div style='width:100%;background:#FF5000'>
+		<div id="top-2">
+			<ul class="top-2-1">
+			<img src="img/taobaowang.png" alt="">
+			<span>全球</span>
+			</ul>
+			<ul class="top-2-2">
+			<input type="text" placeholder='华为手机'>
+			<img src="img/fangdajing.png" alt="">
+			<div class="le">
+			<a href=''>手包男</a>
+			<a href=''>冬装女</a>
+			<a href=''>孕妇装</a>
+			<a href=''>裤子女</a>
+			<a href=''>林弯弯秋装</a>
+			<a href=''>寸衫</a>
+			<a href=''>男腰包</a>
+			<a href=''>双肩包男</a>
+			<a href=''>秋季男士牛仔裤</a>
+			<a href='' class="gengduo">更多...</a>
+			</div>			
+			</ul>
+			<ul class="zhanghu">
+			<img src="img/wodi.jpg" alt="">
+			<div>
+			<span>登录</span>
+			<span>/</span>
+			<span>免费注册</span>
+			<p class="taojin"><img src="img/taojin.png" alt=""><span>领淘金币抵钱</span></p>
+			</div>
+			</ul>
+			<ul class="shoujitaobao">
+			<li>
+			<img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxkZWZzPjxzdHlsZS8+PC9kZWZzPjxwYXRoIGQ9Ik0zOTEuMzc2IDQ4MS44NEgxNTkuMDc4Yy0zNy42NTYgMC02OC4yOS0zMC42MzctNjguMjktNjguMjl2LTIzMi4zYzAtMzcuNjU2IDMwLjYzNS02OC4yOSA2OC4yOS02OC4yOWgyMzIuM2MzNy42NTQgMCA2OC4yOSAzMC42MzUgNjguMjkgNjguMjl2MjMyLjNjMCAzNy42NTQtMzAuNjM3IDY4LjI5LTY4LjI5MiA2OC4yOXpNMTU5LjA3OCAxNTkuMzdjLTEyLjA2NSAwLTIxLjg4IDkuODE1LTIxLjg4IDIxLjg4djIzMi4zYzAgMTIuMDY0IDkuODE1IDIxLjg3OCAyMS44OCAyMS44NzhoMjMyLjNjMTIuMDY0IDAgMjEuODc4LTkuODE0IDIxLjg3OC0yMS44OFYxODEuMjVjMC0xMi4wNjUtOS44MTQtMjEuODgtMjEuODgtMjEuODhIMTU5LjA4ek0zOTEuMzc2IDkwOS41OEgxNTkuMDc4Yy0zNy42NTYgMC02OC4yOS0zMC42MzUtNjguMjktNjguMjlWNjA4Ljk5M2MwLTM3LjY1NiAzMC42MzUtNjguMjkgNjguMjktNjguMjloMjMyLjNjMzcuNjU0IDAgNjguMjkgMzAuNjM1IDY4LjI5IDY4LjI5djIzMi4zYzAgMzcuNjUzLTMwLjYzNyA2OC4yOS02OC4yOTIgNjguMjl6TTE1OS4wNzggNTg3LjExNGMtMTIuMDY1IDAtMjEuODggOS44MTUtMjEuODggMjEuODhWODQxLjI5YzAgMTIuMDY2IDkuODE1IDIxLjg4IDIxLjg4IDIxLjg4aDIzMi4zYzEyLjA2NCAwIDIxLjg3OC05LjgxNCAyMS44NzgtMjEuODhWNjA4Ljk5M2MwLTEyLjA2NC05LjgxNC0yMS44OC0yMS44OC0yMS44OEgxNTkuMDh6TTg2Mi45OTQgNDgxLjg0aC0yMzIuM2MtMzcuNjU0IDAtNjguMjktMzAuNjM3LTY4LjI5LTY4LjI5di0yMzIuM2MwLTM3LjY1NiAzMC42MzctNjguMjkgNjguMjktNjguMjloMjMyLjNjMzcuNjU2IDAgNjguMjkgMzAuNjM1IDY4LjI5IDY4LjI5djIzMi4zYzAgMzcuNjU0LTMwLjYzNCA2OC4yOS02OC4yOSA2OC4yOXptLTIzMi4zLTMyMi40N2MtMTIuMDYzIDAtMjEuODggOS44MTUtMjEuODggMjEuODh2MjMyLjNjMCAxMi4wNjQgOS44MTcgMjEuODc4IDIxLjg4IDIxLjg3OGgyMzIuM2MxMi4wNjQgMCAyMS44OC05LjgxNCAyMS44OC0yMS44OFYxODEuMjVjMC0xMi4wNjUtOS44MTYtMjEuODgtMjEuODgtMjEuODhoLTIzMi4zek02MTAuNzQ1IDgwMS4zM2MtMTMuODI0IDAtMjUuMTM0LTExLjMxLTI1LjEzNC0yNS4xMzRWNTgyLjkwMmMwLTEzLjgyNCAxMS4zMS0yNS4xMzUgMjUuMTM1LTI1LjEzNSAxMy44MjQgMCAyNS4xMzQgMTEuMzEgMjUuMTM0IDI1LjEzNXYxOTMuMjk0Yy0uMDAyIDEzLjgyNC0xMS4zMSAyNS4xMzUtMjUuMTM1IDI1LjEzNXpNNzEzLjA3NiA5MTEuMDRjLTEzLjgyNCAwLTI1LjEzNS0xMS4zMS0yNS4xMzUtMjUuMTM0di0xOTMuNTFjMC0xMy44MjQgMTEuMzEyLTI1LjEzNSAyNS4xMzYtMjUuMTM1IDEzLjgyMyAwIDI1LjEzNCAxMS4zMTIgMjUuMTM0IDI1LjEzNnYxOTMuNTFjMCAxMy44MjQtMTEuMzEgMjUuMTM0LTI1LjEzNCAyNS4xMzR6TTgwOS4yNjYgOTExLjA0Yy0xMy44MjMgMC0yNS4xMzQtMTEuMzEtMjUuMTM0LTI1LjEzNHYtMTA0Ljc4YzAtMTMuODIyIDExLjMxLTI1LjEzMyAyNS4xMzQtMjUuMTMzczI1LjEzNSAxMS4zMSAyNS4xMzUgMjUuMTM0djEwNC43OGMwIDEzLjgyMy0xMS4zMSAyNS4xMzMtMjUuMTM0IDI1LjEzM3pNODA5LjI2NiA3MTcuNDgzYy0xMy44MjMgMC0yNS4xMzQtMTEuMzEtMjUuMTM0LTI1LjEzNFY1NzIuMjJjMC0xMy44MjMgMTEuMzEtMjUuMTM0IDI1LjEzNC0yNS4xMzRzMjUuMTM1IDExLjMxIDI1LjEzNSAyNS4xMzV2MTIwLjEzYzAgMTMuODIyLTExLjMxIDI1LjEzMy0yNS4xMzQgMjUuMTMzek05MDguMDc4IDgwMS4zM2MtMTMuODI0IDAtMjUuMTM1LTExLjMxLTI1LjEzNS0yNS4xMzRWNTcyLjIyYzAtMTMuODIzIDExLjMxLTI1LjEzNCAyNS4xMzUtMjUuMTM0IDEzLjgyNCAwIDI1LjEzNCAxMS4zMSAyNS4xMzQgMjUuMTM1djIwMy45NzZjMCAxMy44MjQtMTEuMzEgMjUuMTM1LTI1LjEzNCAyNS4xMzV6TTYxMC43NDMgOTExLjA0Yy0xMy44MjQgMC0yNS4xMzUtMTEuMzEtMjUuMTM1LTI1LjEzNHYtMjYuNzEyYzAtMTMuODIzIDExLjMxLTI1LjEzNCAyNS4xMzUtMjUuMTM0IDEzLjgyNCAwIDI1LjEzNCAxMS4zMSAyNS4xMzQgMjUuMTM0djI2LjcxMmMwIDEzLjgyNC0xMS4zMSAyNS4xMzQtMjUuMTM0IDI1LjEzNHpNOTA4LjA3OCA5MTEuMDRjLTEzLjgyNCAwLTI1LjEzNS0xMS4zMS0yNS4xMzUtMjUuMTM0di0yNi43MTJjMC0xMy44MjMgMTEuMzEtMjUuMTM0IDI1LjEzNS0yNS4xMzQgMTMuODI0IDAgMjUuMTM0IDExLjMxIDI1LjEzNCAyNS4xMzR2MjYuNzEyYzAgMTMuODI0LTExLjMxIDI1LjEzNC0yNS4xMzQgMjUuMTM0ek03MTMuMDc2IDYzNC43NDhjLTEzLjgyNCAwLTI1LjEzNS0xMS4zMS0yNS4xMzUtMjUuMTM1di0yNi43MWMwLTEzLjgyNSAxMS4zMTItMjUuMTM2IDI1LjEzNi0yNS4xMzYgMTMuODIzIDAgMjUuMTM0IDExLjMxIDI1LjEzNCAyNS4xMzV2MjYuNzFjMCAxMy44MjUtMTEuMzEgMjUuMTM2LTI1LjEzNCAyNS4xMzZ6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTIzNC4yOTQgMjU2LjQ2N2g4MS44NjV2ODEuODY1aC04MS44NjZ2LTgxLjg2NXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=" alt="">
+			<p>手机淘宝</p>
+			</li>
+			<li>
+			<img src="img/gouwuche.png" alt="">
+			<p>购物车</p>
+			</li>
+			</ul>
+		</div>
+		</div>
+		<!-- 手机tab -->
+		<div style="position: absolute;top: 0;width:100%;min-width:1280px">
+		<ul id="shouji-tab">
+			<p>手机下载淘宝购物更便宜</p>
+			<img src="img/erweima2.png" alt="">
+			<p>专为海外用户打造，扫码下载有惊喜</p>
+		</ul>
+		</div>
+		<!-- 分类 -->
+		<div style="width:100%;background:white;">
+		<ul id="fenlei">
+		<li>
+		<img src="img/caidan.png" alt="">
+		<a href=''>商品分类</a>
+		</li>
+		<li>
+		<a href=''>天猫</a>
+		<a href=''>聚划算</a>
+		<a href=''>淘宝头条</a>
+		</li>
+		<img src="img/f.png" alt="">
+		</ul>
+		</div>
+		<!-- 分类菜单 -->
+		<div id="caidan">
+		<ul class="caidan">
+			<li>
+			<span class="fa-camera-retro"></span><span>女装精品</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>内衣/男装</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>鞋品/箱包</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>饰品/配件</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>运动/户外</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>家具/家电</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>居家/家访</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>智能/数码</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>影音/小家电</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>母婴/玩具</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>汽车/娱乐</span><p></p>
+			</li>
+			<li>
+			<span class="fa-camera-retro"></span><span>美容/彩妆</span><p></p>
+			</li>
+		</ul>
+		<!-- 轮播图 -->
+		<div style="height: 360px;">
+		<div class="right-caidan">
+		<div class='lunbo'>
+			<ul class='lunbo-img'>
+			<img src="img/lunbo1.jpg" alt="">
+			<img src="img/lunbo2.jpg_.webp" alt="">
+			<img src="img/lunbo3.jpg_.webp" alt="">
+			<img src="img/lunbo4.jpg_.webp" alt="">
+			<img src="img/lunbo5.jpg_.webp" alt="">
+			<img src="img/lunbo1.jpg" alt="">
+			<img src="img/lunbo2.jpg_.webp" alt="">
+			<img src="img/lunbo3.jpg_.webp" alt="">
+			<img src="img/lunbo4.jpg_.webp" alt="">
+			<img src="img/lunbo5.jpg_.webp" alt="">
+			</ul>
+			<ul class="dian">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<ul class='img-GO'>
+			<img class="img-bot" src="img/haohuo.jpg_.webp" alt="">
+			<img src="img/peisong.jpg_.webp" alt="">
+		</ul>
+		</div>
+		<div class="right-bottom">
+			<ul>
+			<img class="img-bot" src="img/XXX.png" alt="">
+			<li><p>官方物流 全球10地配送 迟到赔付</p><img class="img-bot1" src="img/XXX2.png" alt=""></li>
+			</ul>
+			<ul>
+			<img class="img-bot" src="img/XXX3.png" alt="">
+			<li><p>支持国际信用卡付款</p><img class="img-bot2" src="img/XXX4.png" alt=""></li>
+			</ul>
+			<ul>
+			<img class="img-bot" src="img/XXX5.png" alt="">
+			<li><p>买家保障&购物无忧</p></li>
+			</ul>	
+		</div>
+		</div>
+		</div>
+		<div style="height: 25px;"></div>
+		<div id="quality">
+			<img src="img/youhaohuo.jpg_.webp" alt="" />
+			<span>品质生活指南</span>
+		</div>
+			<!--物品切换-->
+		<div id="wuping">
+		<!-- 1 -->
+			<div>
+			<ul class="wuping">
+				<li>
+					<a href=''>裙子</a>
+					<a href=''>连衣裙</a>
+					<a href=''>碎花连衣裙</a>
+					<a href=''>雪纺连衣裙</a>
+					<a href=''>棉麻连衣裙</a>
+					<a href=''>一字领连衣裙</a>
+					<a href=''>蕾丝连衣裙</a>
+					<a href=''>漏背裙</a>
+					<a href=''>中长款连衣裙</a>
+					<a href=''>吊带连衣裙</a>
+					<a href=''>半身裙</a>
+				</li>
+				<li>
+					<a href=''>T恤寸衫</a>
+					<a href=''>T恤</a>
+					<a href=''>纯棉T恤</a>
+					<a href=''>雪纺T恤</a>
+					<a href=''>T恤潮</a>
+					<a href=''>T恤长款</a>
+					<a href=''>宽松T恤</a>
+					<a href=''>修身T恤</a>
+					<a href=''>大码T恤</a>
+					<a href=''>长袖衬衫</a>
+					<a href=''>小背心</a>
+					<a href=''>针织开衫</a>
+				</li>
+				<li>
+					<a href=''>裤子</a>
+					<a href=''>短裤夏</a>
+					<a href=''>打底裤</a>
+					<a href=''>休闲裤</a>
+					<a href=''>牛仔裤</a>
+					<a href=''>阔腿裤</a>
+					<a href=''>牛仔短裤</a>
+					<a href=''>哈伦裤</a>
+					<a href=''>铅笔裤</a>
+				</li>
+				<li>
+					<a href=''>婚纱礼服</a>
+					<a href=''>过年温暖会场</a>
+					<a href=''>送礼会场</a>
+					<a href=''>女装会场</a>
+					<a href=''>品质大牌</a>
+					<a href=''>年货好店</a>
+					<a href=''>连衣裙</a>
+					<a href=''>羽绒服</a>
+					<a href=''>T恤</a>
+					<a href=''>牛仔裤</a>
+					<a href=''>阔腿裤</a>
+					<a href=''>羊毛大衣</a>
+				</li>
+			</ul>
+			<ul class='rig-img'>
+			   <img src="img/fenlei-1.1.jpg" alt="" />
+			   <img src="img/fenlei-1.2.jpg" alt="" />
+			   <img src="img/fenlei-1.3.jpg" alt="" />
+			</ul>
+			</div>
+
+
+			<!-- 2 -->
+			<div>
+			<ul class="wuping">
+				<li>
+					<a href="">上衣</a>
+					<a href=''>大牌男装会场</a>
+					<a href=''>潮流男装会场</a>
+					<a href=''>内衣主会场</a>
+					<a href=''>T恤</a>
+					<a href=''>纯棉T恤</a>
+					<a href=''>背心衬衫</a>
+					<a href=''>针织衫</a>
+					<a href=''>毛衣</a>
+					<a href=''>夹克</a>
+					<a href=''>卫衣</a>
+					<a href=''>POLO衫</a>
+					<a href=''>西装</a>
+				</li>
+				<li>
+					<a href="">男裤</a>
+					<a href=''>沙滩裤</a>
+					<a href=''>牛仔裤</a>
+					<a href=''>休闲裤</a>
+					<a href=''>休闲短裤</a>
+					<a href=''>牛仔短裤</a>
+					<a href=''>运动裤</a>
+					<a href=''>西裤</a>
+					<a href=''>中裤</a>
+				</li>
+				<li>
+					<a href="">女士内衣</a>
+					<a href=''>文胸</a>
+					<a href=''>聚拢文胸</a>
+					<a href=''>无钢圈文胸</a>
+					<a href=''>少文胸</a>
+					<a href=''>抹胸式文胸</a>
+					<a href=''>调整型文胸</a>
+					<a href=''>内裤</a>
+					<a href=''>纯棉内裤</a>
+					<a href=''>莫代尔内裤</a>
+					<a href=''>家居服</a>
+					<a href=''>睡衣</a>
+					<a href=''>塑身内衣</a>
+				</li>
+				<li>
+					<a href="">男士内衣</a>
+					<a href=''>内衣主会场</a>
+					<a href=''>男装主会场</a>
+					<a href=''>保暖会场</a>
+					<a href=''>男装型格好店</a>
+					<a href=''>男装</a>
+					<a href=''>精选大牌</a>
+					<a href=''>牛仔裤</a>
+					<a href=''>休闲裤</a>
+					<a href=''>运动裤</a>
+					<a href=''>T恤</a>
+					<a href=''>家居服</a>
+					<a href=''>文胸</a>
+					<a href=''>睡衣</a>
+					<a href=''>塑性内衣</a>
+					<a href=''>内裤</a>
+					<a href=''>夹克</a>
+					<a href=''>风衣</a>
+					<a href=''>羽绒服</a>
+					<a href=''>卫衣</a>
+					<a href=''>衬衣</a>
+					<a href=''>平角内裤</a>
+
+				</li>
+			</ul>
+			<ul class='rig-img'>
+			   <img src="img/fenlei-2.1.jpg" alt="" />
+			   <img src="img/fenlei-2.2.jpg" alt="" />
+			   <img src="img/fenlei-2.3.jpg" alt="" />
+			</ul>
+			</div>
+
+			<!-- 3 -->
+			<div>
+			<ul class="wuping">
+				<li>
+					
+				</li>
+				<li>
+					<a href="">男裤</a>
+					<a href=''>沙滩裤</a>
+					<a href=''>牛仔裤</a>
+					<a href=''>休闲裤</a>
+					<a href=''>休闲短裤</a>
+					<a href=''>牛仔短裤</a>
+					<a href=''>运动裤</a>
+					<a href=''>西裤</a>
+					<a href=''>中裤</a>
+				</li>
+				<li>
+					<a href="">女士内衣</a>
+					<a href=''>文胸</a>
+					<a href=''>聚拢文胸</a>
+					<a href=''>无钢圈文胸</a>
+					<a href=''>少文胸</a>
+					<a href=''>抹胸式文胸</a>
+					<a href=''>调整型文胸</a>
+					<a href=''>内裤</a>
+					<a href=''>纯棉内裤</a>
+					<a href=''>莫代尔内裤</a>
+					<a href=''>家居服</a>
+					<a href=''>睡衣</a>
+					<a href=''>塑身内衣</a>
+				</li>
+				<li>
+					<a href="">男士内衣</a>
+					<a href=''>内衣主会场</a>
+					<a href=''>男装主会场</a>
+					<a href=''>保暖会场</a>
+					<a href=''>男装型格好店</a>
+					<a href=''>男装</a>
+					<a href=''>精选大牌</a>
+					<a href=''>牛仔裤</a>
+					<a href=''>休闲裤</a>
+					<a href=''>运动裤</a>
+					<a href=''>T恤</a>
+					<a href=''>家居服</a>
+					<a href=''>文胸</a>
+					<a href=''>睡衣</a>
+					<a href=''>塑性内衣</a>
+					<a href=''>内裤</a>
+					<a href=''>夹克</a>
+					<a href=''>风衣</a>
+					<a href=''>羽绒服</a>
+					<a href=''>卫衣</a>
+					<a href=''>衬衣</a>
+					<a href=''>平角内裤</a>
+
+				</li>
+			</ul>
+			<ul class='rig-img'>
+			   <img src="img/fenlei-2.1.jpg" alt="" />
+			   <img src="img/fenlei-2.2.jpg" alt="" />
+			   <img src="img/fenlei-2.3.jpg" alt="" />
+			</ul>
+			</div>
+		</div>
+		<div style="height: 800px;background:red;"></div>
+	<script src="js/1.js"></script>
+</body>
+</html>
